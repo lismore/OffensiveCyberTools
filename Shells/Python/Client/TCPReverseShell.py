@@ -1,6 +1,6 @@
 # Reverse TCP Shell in Python For Offensive Security/Penetration Testing Assignments 
 # Connect on LinkedIn  https://www.linkedin.com/in/lismore or Twitter @patricklismore
-#=======================================================================================================================================================================
+#=========================================================================================================================================
 
 # Python TCP Client
 
