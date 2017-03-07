@@ -25,9 +25,9 @@ startTime = datetime.now()
 try:
     for port in range(1,1025):  
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        print "|- Port: ", port
+        #print "|- Port: ", port
         result = sock.connect_ex((remoteServerIP, port))
-        print "|- Result: ", result
+        #print "|- Result: ", result
         if result == 0:
             print "Target - Port {}: 	 Open".format(port)
         sock.close()
